@@ -9,6 +9,7 @@ cpio
 cxxopts
 dunst
 efibootmgr
+fastfetch
 firefox
 gdb
 git
@@ -30,7 +31,6 @@ man-pages
 meson
 modemmanager
 nemo
-neofetch
 ninja
 noto-fonts
 noto-fonts-cjk
@@ -57,6 +57,7 @@ ttf-meslo-nerd
 ttf-ms-fonts
 ttf-ubuntu-font-family
 vim
+vlc
 vscodium-bin
 vscodium-bin-marketplace
 waybar
@@ -68,3 +69,4 @@ xf86-video-nouveau
 yay
 yay-debug
 zapzap
+zsh

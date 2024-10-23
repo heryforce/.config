@@ -1,0 +1,16 @@
+2024-10-23 23:21:41.892 [info] Extension host with pid 22848 started
+2024-10-23 23:21:41.892 [info] Skipping acquiring lock for /home/Heryforce/.config/VSCodium/User/workspaceStorage/1cda70b88a7f9558a940c4a576b54b94.
+2024-10-23 23:21:42.042 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 23:21:42.062 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:21:42.073 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:21:42.139 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:21:42.491 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-23 23:21:42.497 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-23 23:21:42.581 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 23:21:42.650 [info] Eager extensions activated
+2024-10-23 23:21:42.677 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 23:21:42.679 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 23:21:42.809 [warning] [Decorations] CAPPING events from decorations provider vscode.git 518
+2024-10-23 23:21:42.910 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-23 23:21:43.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 519
+2024-10-23 23:23:19.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 554

@@ -26,3 +26,8 @@
 2024-10-23 22:49:37.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 933
 2024-10-23 22:50:22.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 953
 2024-10-23 22:52:27.067 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1046
+2024-10-23 22:53:07.134 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1045
+2024-10-23 23:14:43.125 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:14:43.198 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:14:43.253 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 23:15:33.459 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
