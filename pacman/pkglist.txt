@@ -52,6 +52,7 @@ ttf-arimo-nerd
 ttf-dejavu
 ttf-font-awesome
 ttf-inconsolata
+ttf-jetbrains-mono-nerd
 ttf-linux-libertine
 ttf-meslo-nerd
 ttf-ms-fonts
