@@ -1,10 +1,11 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {
-            "1729213484962": "__default__profile__"
-        }
+        "workspaces": {
+            "file:///home/Heryforce/.config/hypr": "__default__profile__",
+            "file:///home/Heryforce/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -12,22 +13,23 @@
     "telemetry.devDeviceId": "66beac38-eead-43fa-8e4c-fa930d7a361c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1729213484962"
+                "folderUri": "file:///home/Heryforce/.config"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/Heryforce/.config/VSCodium/Backups/1729213484962",
+            "folder": "file:///home/Heryforce/.config",
+            "backupPath": "/home/Heryforce/.config/VSCodium/Backups/f9aabafb62e0336db5fa9339889a6a8a",
             "uiState": {
                 "mode": 1,
-                "x": 967,
+                "x": 22,
                 "y": 58,
-                "width": 931,
-                "height": 1000,
+                "width": 1876,
+                "height": 1120,
                 "zoomLevel": 1
             }
         },
@@ -88,6 +90,42 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/Heryforce/.config",
+                                        "path": "/home/Heryforce/.config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/Heryforce/.config/hypr",
+                                        "path": "/home/Heryforce/.config/hypr",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/Heryforce/.config/hypr/hyprlock.conf",
+                                        "path": "/home/Heryforce/.config/hypr/hyprlock.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr/hyprlock.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -201,6 +239,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 }
@@ -283,6 +328,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -478,7 +527,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1329,6 +1379,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1709,7 +1764,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 232,
             "statusBarHeight": 22,
             "windowBorder": false
         }

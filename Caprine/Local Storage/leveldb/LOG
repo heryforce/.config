@@ -1,0 +1,5 @@
+2024/10/23-22:50:23.240 a84 Reusing MANIFEST /home/Heryforce/.config/Caprine/Local Storage/leveldb/MANIFEST-000001
+2024/10/23-22:50:23.245 a84 Recovering log #3
+2024/10/23-22:50:23.246 a84 Level-0 table #3: started
+2024/10/23-22:50:23.250 a84 Level-0 table #3: 18703 bytes OK
+2024/10/23-22:50:23.254 a84 Delete type=0 #3

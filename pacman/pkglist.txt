@@ -3,6 +3,7 @@ alsa-utils
 base
 base-devel
 brightnessctl
+caprine
 cmake
 cpio
 cxxopts
@@ -28,6 +29,7 @@ man-db
 man-pages
 meson
 modemmanager
+nemo
 neofetch
 ninja
 noto-fonts
@@ -52,14 +54,17 @@ ttf-font-awesome
 ttf-inconsolata
 ttf-linux-libertine
 ttf-meslo-nerd
+ttf-ms-fonts
 ttf-ubuntu-font-family
 vim
 vscodium-bin
 vscodium-bin-marketplace
 waybar
+wine-stable
 wlogout
 wofi
 xf86-video-intel
 xf86-video-nouveau
 yay
 yay-debug
+zapzap

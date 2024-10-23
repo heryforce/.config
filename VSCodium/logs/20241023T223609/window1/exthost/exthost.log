@@ -1,0 +1,261 @@
+2024-10-23 22:36:12.155 [info] Extension host with pid 7644 started
+2024-10-23 22:36:12.217 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 22:36:12.303 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-23 22:36:12.310 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-23 22:36:12.405 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 22:36:12.469 [info] Eager extensions activated
+2024-10-23 22:36:12.488 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:12.490 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:18.560 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 22:36:18.573 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 22:36:18.633 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 22:36:18.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 705
+2024-10-23 22:36:18.936 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-23 22:36:19.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 706
+2024-10-23 22:36:21.070 [warning] [Decorations] CAPPING events from decorations provider vscode.git 706
+2024-10-23 22:36:26.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 736
+2024-10-23 22:36:31.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 736
+2024-10-23 22:36:35.255 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-23 22:36:35.267 [error] Canceled: Canceled
+	at new eR (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at gh.O [as value] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:952983)
+	at A._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:973561)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-23 22:36:35.268 [error] Canceled: Canceled
+	at new eR (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at set hasGitHubRepositories (/opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:321527)
+	at /opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:322486
+	at gh.value (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1061824)
+	at A._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:973561)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-23 22:36:35.269 [info] Extension host with pid 7644 exiting with code 0
+2024-10-23 22:36:36.301 [info] Extension host with pid 7796 started
+2024-10-23 22:36:36.301 [info] Skipping acquiring lock for /home/Heryforce/.config/VSCodium/User/workspaceStorage/a7d6b59a8dfe302ded31f29cd8ea6374.
+2024-10-23 22:36:36.375 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-10-23 22:36:36.398 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 22:36:36.434 [info] Eager extensions activated
+2024-10-23 22:36:36.435 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:36.436 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:38.182 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-10-23 22:36:38.335 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 22:36:38.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 741
+2024-10-23 22:36:38.508 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-23 22:36:38.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 741
+2024-10-23 22:36:40.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 741
+2024-10-23 22:36:45.614 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-23 22:36:45.624 [error] Canceled: Canceled
+	at new eR (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at gh.O [as value] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:952983)
+	at A._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:973561)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-23 22:36:45.625 [error] Canceled: Canceled
+	at new eR (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at set hasGitHubRepositories (/opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:321527)
+	at /opt/vscodium-bin/resources/app/extensions/github/dist/extension.js:2:322486
+	at gh.value (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:1061824)
+	at A._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:973561)
+	at /opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-23 22:36:45.625 [info] Extension host with pid 7796 exiting with code 0
+2024-10-23 22:36:46.496 [info] Extension host with pid 7865 started
+2024-10-23 22:36:46.496 [info] Skipping acquiring lock for /home/Heryforce/.config/VSCodium/User/workspaceStorage/1cda70b88a7f9558a940c4a576b54b94.
+2024-10-23 22:36:46.560 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-10-23 22:36:46.598 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 22:36:46.633 [info] Eager extensions activated
+2024-10-23 22:36:46.653 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:46.656 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 22:36:51.528 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-10-23 22:36:51.667 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 22:36:51.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:36:51.843 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-23 22:36:51.973 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:36:53.991 [warning] [Decorations] CAPPING events from decorations provider vscode.git 744
+2024-10-23 22:36:59.044 [warning] [Decorations] CAPPING events from decorations provider vscode.git 744
+2024-10-23 22:37:04.095 [warning] [Decorations] CAPPING events from decorations provider vscode.git 744
+2024-10-23 22:37:09.147 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:14.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:19.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:24.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:29.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:34.464 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:39.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:44.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:49.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:54.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:37:59.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:38:04.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:38:09.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 745
+2024-10-23 22:38:14.902 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:19.958 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:25.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:30.330 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:35.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:40.429 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:45.480 [warning] [Decorations] CAPPING events from decorations provider vscode.git 746
+2024-10-23 22:38:47.803 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2024-10-23 22:39:02.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:07.919 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:12.974 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:18.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:23.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:28.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:33.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:38.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:43.350 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:48.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 759
+2024-10-23 22:39:53.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:39:58.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:40:03.549 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:40:32.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:40:37.907 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:40:42.961 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:40:48.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:40:53.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:40:58.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:41:03.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:41:08.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:41:13.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 765
+2024-10-23 22:41:18.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:41:47.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:42:16.291 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:42:30.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:42:35.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 761
+2024-10-23 22:42:40.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 761
+2024-10-23 22:42:45.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 761
+2024-10-23 22:42:50.767 [warning] [Decorations] CAPPING events from decorations provider vscode.git 762
+2024-10-23 22:42:55.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 762
+2024-10-23 22:43:00.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:43:05.901 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:43:10.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 762
+2024-10-23 22:43:34.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 762
+2024-10-23 22:43:39.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 762
+2024-10-23 22:43:44.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
+2024-10-23 22:43:49.729 [warning] [Decorations] CAPPING events from decorations provider vscode.git 764
+2024-10-23 22:43:54.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 763
