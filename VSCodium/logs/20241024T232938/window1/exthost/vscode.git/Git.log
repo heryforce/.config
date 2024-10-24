@@ -1,0 +1,49 @@
+2024-10-24 23:29:41.551 [info] [main] Log level: Info
+2024-10-24 23:29:41.551 [info] [main] Validating found git in: "git"
+2024-10-24 23:29:41.551 [info] [main] Using git "2.47.0" from "git"
+2024-10-24 23:29:41.551 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-24 23:29:41.551 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-24 23:29:41.551 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-24 23:29:41.551 [info] [Model][openRepository] Opened repository: /home/Heryforce/.config
+2024-10-24 23:29:41.551 [info] > git rev-parse --show-toplevel [37ms]
+2024-10-24 23:29:41.551 [info] > git config --get commit.template [42ms]
+2024-10-24 23:29:41.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-24 23:29:41.581 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-10-24 23:29:41.583 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-24 23:29:41.590 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-24 23:29:41.597 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-24 23:29:41.605 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-24 23:29:41.617 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-24 23:29:41.623 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-24 23:29:41.630 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-24 23:29:41.644 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-24 23:29:41.653 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-24 23:29:41.662 [info] > git status -z -uall [95ms]
+2024-10-24 23:29:41.662 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-24 23:29:41.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-10-24 23:29:41.743 [info] > git config --get commit.template [9ms]
+2024-10-24 23:29:41.743 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-24 23:29:41.744 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-24 23:29:41.744 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-24 23:29:41.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-24 23:29:41.765 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-24 23:29:41.765 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2024-10-24 23:29:41.777 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-10-24 23:29:41.777 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-24 23:29:41.777 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-24 23:29:42.016 [info] > git merge-base refs/heads/main refs/remotes/origin/main [233ms]
+2024-10-24 23:29:42.022 [info] > git rev-parse --show-toplevel [246ms]
+2024-10-24 23:29:42.043 [info] > git diff --name-status -z --diff-filter=ADMR bbced4127b79d12082f58d763a48fc32aa5dcb46...refs/remotes/origin/main [21ms]
+2024-10-24 23:29:42.056 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-24 23:29:42.056 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-10-24 23:29:42.066 [info] > git check-ignore -v -z --stdin [17ms]
+2024-10-24 23:29:42.069 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-24 23:29:42.076 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-24 23:29:42.082 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-24 23:29:42.088 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-24 23:29:42.094 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-24 23:29:42.094 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-24 23:29:42.106 [info] > git show --textconv :kitty/kitty.conf [7ms]
+2024-10-24 23:29:42.108 [info] > git ls-files --stage -- /home/Heryforce/.config/kitty/kitty.conf [3ms]
+2024-10-24 23:29:42.113 [info] > git cat-file -s fcf4cf4897d6cd7336c0365e81d01c873c280d13 [1ms]
+2024-10-24 23:29:42.142 [info] > git status -z -uall [110ms]

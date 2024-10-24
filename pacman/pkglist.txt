@@ -14,6 +14,7 @@ firefox
 gdb
 git
 grub
+hypridle
 hyprland
 hyprlock
 hyprpaper
@@ -35,6 +36,7 @@ ninja
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+nvidia
 os-prober
 otf-font-awesome
 pamixer
@@ -43,6 +45,7 @@ pulseaudio
 pulseaudio-alsa
 qt5-wayland
 qt6-wayland
+sddm
 sof-firmware
 sudo
 sweet-cursors-hyprcursor-git
