@@ -1,0 +1,53 @@
+2024-10-27 22:16:59.707 [info] [main] Log level: Info
+2024-10-27 22:16:59.707 [info] [main] Validating found git in: "git"
+2024-10-27 22:16:59.707 [info] [main] Using git "2.47.0" from "git"
+2024-10-27 22:16:59.707 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-27 22:16:59.707 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-27 22:16:59.707 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-10-27 22:16:59.707 [info] [Model][openRepository] Opened repository: /home/Heryforce/.config
+2024-10-27 22:16:59.709 [info] > git rev-parse --show-toplevel [39ms]
+2024-10-27 22:16:59.710 [info] > git config --get commit.template [47ms]
+2024-10-27 22:16:59.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-27 22:16:59.752 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-27 22:16:59.759 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.769 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-27 22:16:59.775 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.781 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.786 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.791 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.796 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:16:59.803 [info] > git status -z -uall [59ms]
+2024-10-27 22:16:59.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-10-27 22:16:59.861 [info] > git rev-parse --show-toplevel [60ms]
+2024-10-27 22:16:59.870 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-10-27 22:16:59.870 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-27 22:16:59.875 [info] > git config --get commit.template [23ms]
+2024-10-27 22:16:59.876 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-27 22:16:59.920 [info] > git reflog main --grep-reflog=branch: Created from *. [45ms]
+2024-10-27 22:17:00.109 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [184ms]
+2024-10-27 22:17:00.109 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-27 22:17:00.109 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-27 22:17:00.115 [info] > git rev-parse --show-toplevel [196ms]
+2024-10-27 22:17:00.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [200ms]
+2024-10-27 22:17:00.124 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-10-27 22:17:00.131 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-27 22:17:00.138 [info] > git diff --name-status -z --diff-filter=ADMR d4d20faaa5841efd0beb4f20a46bbefe855d3220...refs/remotes/origin/main [8ms]
+2024-10-27 22:17:00.152 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-27 22:17:00.159 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-27 22:17:00.162 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-27 22:17:00.168 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:17:00.174 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:17:00.180 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:17:00.186 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-27 22:17:00.193 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-27 22:17:00.199 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-27 22:17:00.200 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-27 22:17:00.225 [info] > git status -z -uall [82ms]
+2024-10-27 22:17:00.225 [info] > git show --textconv :waybar/style.css [17ms]
+2024-10-27 22:17:00.225 [info] > git ls-files --stage -- /home/Heryforce/.config/waybar/style.css [9ms]
+2024-10-27 22:17:00.248 [info] > git check-ignore -v -z --stdin [26ms]
+2024-10-27 22:17:00.249 [info] > git cat-file -s 20574e1229b98bec2343af3c6f2c6b069aba882b [19ms]
+2024-10-27 23:03:45.297 [info] > git config --get commit.template [1ms]
+2024-10-27 23:03:45.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-27 23:03:45.315 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-27 23:03:45.357 [info] > git status -z -uall [49ms]

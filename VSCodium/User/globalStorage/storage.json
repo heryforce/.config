@@ -26,7 +26,7 @@
             "backupPath": "/home/Heryforce/.config/VSCodium/Backups/f9aabafb62e0336db5fa9339889a6a8a",
             "uiState": {
                 "mode": 1,
-                "x": 22,
+                "x": 46,
                 "y": 58,
                 "width": 931,
                 "height": 1120,
@@ -867,8 +867,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -877,8 +876,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1777,7 +1775,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 258,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

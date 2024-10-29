@@ -45,7 +45,6 @@ pulseaudio
 pulseaudio-alsa
 qt5-wayland
 qt6-wayland
-sddm
 sof-firmware
 sudo
 sweet-cursors-hyprcursor-git
@@ -53,6 +52,7 @@ texinfo
 thermald
 ttf-arimo-nerd
 ttf-dejavu
+ttf-fira-code
 ttf-font-awesome
 ttf-inconsolata
 ttf-jetbrains-mono-nerd

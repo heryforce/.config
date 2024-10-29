@@ -1,0 +1,56 @@
+2024-10-29 19:38:08.379 [info] Extension host with pid 1443 started
+2024-10-29 19:38:08.379 [info] Skipping acquiring lock for /home/Heryforce/.config/VSCodium/User/workspaceStorage/1cda70b88a7f9558a940c4a576b54b94.
+2024-10-29 19:38:08.630 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-29 19:38:08.829 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-29 19:38:08.851 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-29 19:38:08.976 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-29 19:38:09.096 [info] Eager extensions activated
+2024-10-29 19:38:09.136 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 19:38:09.139 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 19:38:09.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2280
+2024-10-29 19:38:09.813 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-29 19:38:09.902 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2308
+2024-10-29 19:38:22.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2393
+2024-10-29 19:38:27.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2384
+2024-10-29 19:38:32.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2384
+2024-10-29 19:38:37.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2384
+2024-10-29 19:38:42.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2384
+2024-10-29 19:38:47.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:38:52.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:38:57.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:39:02.818 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:39:07.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:39:12.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2383
+2024-10-29 19:40:56.515 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2404
+2024-10-29 19:41:12.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2404
+2024-10-29 19:41:17.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2404
+2024-10-29 19:41:23.061 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2404
+2024-10-29 19:44:30.970 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:44:36.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:44:41.143 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:44:46.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:44:51.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:44:56.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:01.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:06.593 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:11.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:17.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:22.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2407
+2024-10-29 19:45:27.288 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:47:47.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:03.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:08.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:13.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:18.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:23.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:28.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2409
+2024-10-29 19:49:33.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2409
+2024-10-29 19:49:39.057 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:44.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:49.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:54.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:49:59.410 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:50:04.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:50:09.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:50:14.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
+2024-10-29 19:50:19.722 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2408
