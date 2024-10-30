@@ -5,8 +5,8 @@
 	"vibrancy": "none",
 	"zoomFactor": 1,
 	"lastWindowState": {
-		"x": 1223,
-		"y": 366,
+		"x": 1315,
+		"y": 478,
 		"width": 931,
 		"height": 1120,
 		"isMaximized": false
@@ -29,7 +29,7 @@
 	},
 	"emojiStyle": "facebook-3-0",
 	"useWorkChat": false,
-	"sidebar": "default",
+	"sidebar": "hidden",
 	"autoHideMenuBar": false,
 	"autoUpdate": true,
 	"notificationsMuted": false,
@@ -38,6 +38,6 @@
 	"quitOnWindowClose": false,
 	"keepMeSignedIn": true,
 	"autoplayVideos": true,
-	"isSpellCheckerEnabled": true,
+	"isSpellCheckerEnabled": false,
 	"spellCheckerLanguages": []
 }

@@ -1,2 +1,3 @@
-2024/10/23-22:50:08.137 366 Creating DB /home/Heryforce/.config/Caprine/shared_proto_db since it was missing.
-2024/10/23-22:50:08.145 366 Reusing MANIFEST /home/Heryforce/.config/Caprine/shared_proto_db/MANIFEST-000001
+2024/10/23-23:04:05.879 a84 Reusing MANIFEST /home/Heryforce/.config/Caprine/shared_proto_db/MANIFEST-000001
+2024/10/23-23:04:05.879 a84 Recovering log #3
+2024/10/23-23:04:05.880 a84 Reusing old log /home/Heryforce/.config/Caprine/shared_proto_db/000003.log 
