@@ -3,6 +3,7 @@ alsa-utils
 base
 base-devel
 brightnessctl
+btop
 caprine
 cmake
 cpio
@@ -10,7 +11,9 @@ cxxopts
 dunst
 efibootmgr
 fastfetch
+feh
 firefox
+fwupd
 gdb
 git
 grub
@@ -57,9 +60,11 @@ ttf-font-awesome
 ttf-inconsolata
 ttf-jetbrains-mono-nerd
 ttf-linux-libertine
+ttf-maple
 ttf-meslo-nerd
 ttf-ms-fonts
 ttf-ubuntu-font-family
+unzip
 vim
 vlc
 vscodium-bin

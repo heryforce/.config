@@ -2,6 +2,5 @@
     "git.openRepositoryInParentFolders": "always",
     "editor.minimap.showSlider": "always",
     "php.suggest.basic": false,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'FIra Code', 'monospace', monospace"
+    "editor.fontLigatures": true
 }

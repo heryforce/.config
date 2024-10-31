@@ -3,5 +3,5 @@
     "editor.minimap.showSlider": "always",
     "php.suggest.basic": false,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'FIra Code', 'monospace', monospace"
+    "editor.fontFamily": "'Maple Mono', 'monospace', monospace"
 }
