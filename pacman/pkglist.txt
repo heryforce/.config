@@ -35,6 +35,7 @@ man-pages
 meson
 modemmanager
 nemo
+neovim
 ninja
 noto-fonts
 noto-fonts-cjk
