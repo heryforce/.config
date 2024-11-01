@@ -6,6 +6,5 @@
     "editor.fontFamily": "'FIra Code', 'monospace', monospace",
     "emmet.includeLanguages": {
         "twig": "html"
-    },
-    "workbench.colorTheme": "Monokai"
+    }
 }

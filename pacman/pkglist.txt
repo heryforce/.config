@@ -5,6 +5,7 @@ base-devel
 brightnessctl
 btop
 caprine
+cava
 cmake
 cpio
 cxxopts
@@ -44,9 +45,11 @@ nvidia
 os-prober
 otf-font-awesome
 pamixer
+php
+php-pgsql
+pipewire-alsa
+pipewire-pulse
 playerctl
-pulseaudio
-pulseaudio-alsa
 qt5-wayland
 qt6-wayland
 sof-firmware
@@ -78,6 +81,7 @@ wlogout
 wofi
 xf86-video-intel
 xf86-video-nouveau
+xorg-xhost
 yay
 yay-debug
 zapzap
