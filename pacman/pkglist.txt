@@ -54,6 +54,7 @@ sudo
 sweet-cursors-hyprcursor-git
 texinfo
 thermald
+timeshift
 ttf-arimo-nerd
 ttf-dejavu
 ttf-fira-code
@@ -66,6 +67,7 @@ ttf-meslo-nerd
 ttf-ms-fonts
 ttf-ubuntu-font-family
 unzip
+vi
 vim
 vlc
 vscodium-bin
