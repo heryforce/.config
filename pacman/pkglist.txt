@@ -7,10 +7,15 @@ btop
 caprine
 cava
 cmake
+coppwr
 cpio
 cxxopts
+discord_arch_electron
+dma
 dunst
 efibootmgr
+electron
+eza
 fastfetch
 feh
 firefox
@@ -18,13 +23,15 @@ fwupd
 gdb
 git
 grub
+hyprcursor
 hypridle
 hyprland
+hyprlang
 hyprlock
 hyprpaper
-hyprpolkitagent-git
-hyprsysteminfo-git
-hyprutils-git
+hyprpolkitagent
+hyprsysteminfo
+hyprutils
 intel-ucode
 iwd
 kitty
@@ -33,6 +40,7 @@ linux
 linux-firmware
 man-db
 man-pages
+mariadb
 meson
 modemmanager
 nemo
@@ -46,7 +54,9 @@ os-prober
 otf-font-awesome
 pamixer
 php
+php-apache
 php-pgsql
+phpmyadmin
 pipewire-alsa
 pipewire-pulse
 playerctl
@@ -58,6 +68,7 @@ sweet-cursors-hyprcursor-git
 texinfo
 thermald
 timeshift
+tldr
 ttf-arimo-nerd
 ttf-dejavu
 ttf-fira-code
@@ -70,6 +81,7 @@ ttf-meslo-nerd
 ttf-ms-fonts
 ttf-ubuntu-font-family
 unzip
+usbutils
 vi
 vim
 vlc
@@ -84,5 +96,6 @@ xf86-video-nouveau
 xorg-xhost
 yay
 yay-debug
+yt-dlp
 zapzap
 zsh
