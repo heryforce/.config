@@ -112,7 +112,7 @@
         "interval": 60,
         "max-length": 25,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%d-%m-%Y %H:%M}"
+        "format": "{:%H:%M %d-%m-%Y}"
         // "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {

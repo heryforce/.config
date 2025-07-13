@@ -34,6 +34,8 @@ text_editor/theme/highlighting/mark_color = Color(1, 0.47, 0.42, 0.3)
 text_editor/theme/highlighting/breakpoint_color = Color(1, 0.47, 0.42, 1)
 text_editor/theme/highlighting/code_folding_color = Color(1, 1, 1, 0.27)
 text_editor/theme/highlighting/search_result_color = Color(1, 1, 1, 0.07)
+network/connection/network_mode = 1
+project_manager/default_renderer = "mobile"
 asset_library/available_urls = {
 "godotengine.org (Official)": "https://godotengine.org/asset-library/api"
 }
@@ -133,3 +135,10 @@ editors/3d_gizmos/gizmo_colors/lightprobe_lines = Color(0.5, 0.6, 1, 1)
 editors/3d_gizmos/gizmo_colors/joint_body_a = Color(0.6, 0.8, 1, 1)
 editors/3d_gizmos/gizmo_colors/joint_body_b = Color(0.6, 0.9, 1, 1)
 editors/3d_gizmos/gizmo_colors/fog_volume = Color(0.5, 0.7, 1, 1)
+text_editor/help/sort_functions_alphabetically = true
+metadata/script_setup_templates_dictionary = {
+"Area2D": "0NodeDefault",
+"Label": "0NodeDefault",
+"Node2D": "0NodeDefault"
+}
+metadata/export_template_download_directory = "/home/Heryforce/.cache/godot"

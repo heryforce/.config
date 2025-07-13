@@ -1,1 +1,1 @@
-.config content
+TODO : list commands to quickly setup arch
