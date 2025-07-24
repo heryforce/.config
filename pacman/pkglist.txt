@@ -69,6 +69,7 @@ php
 php-apache
 php-pgsql
 phpmyadmin
+pikopixel
 pipewire-alsa
 pipewire-pulse
 pkgstats
