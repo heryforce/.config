@@ -22,9 +22,9 @@ eza
 fastfetch
 feh
 firefox
-flameshot
 fwupd
 gdb
+gimp
 git
 godot
 grub
@@ -40,6 +40,7 @@ hyprsysteminfo
 hyprutils
 hyprwayland-scanner
 imagemagick
+insync
 intel-ucode
 isoimagewriter
 iwd
@@ -87,7 +88,6 @@ tldr
 ttf-arimo-nerd
 ttf-dejavu
 ttf-fira-code
-ttf-font-awesome
 ttf-inconsolata
 ttf-jetbrains-mono-nerd
 ttf-linux-libertine
@@ -104,10 +104,13 @@ vscodium-bin
 vscodium-bin-marketplace
 vulkan-intel
 waybar
+wine-mono
 wine-stable
 wlogout
 woeusb
+woff2-font-awesome
 wofi
+xdg-desktop-portal-hyprland
 xf86-video-intel
 xf86-video-nouveau
 xorg-xhost
