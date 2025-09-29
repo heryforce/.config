@@ -30,7 +30,6 @@ _editor_settings_advanced_mode = false
 _project_settings_advanced_mode = true
 _export_template_download_directory = ""
 _script_setup_templates_dictionary = {
-"AnimatableBody2D": "0NodeDefault",
 "Area2D": "0NodeDefault",
 "CharacterBody2D": "0NodeDefault",
 "Control": "0NodeDefault",
@@ -38,8 +37,7 @@ _script_setup_templates_dictionary = {
 "Node2D": "0NodeDefault",
 "Parallax2D": "0NodeDefault",
 "ParallaxBackground": "0NodeDefault",
-"ParallaxLayer": "0NodeDefault",
-"StateMachine": "0NodeDefault"
+"ParallaxLayer": "0NodeDefault"
 }
 _script_setup_use_script_templates = true
 shortcuts = [{
